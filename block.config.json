@@ -1,0 +1,13 @@
+{
+  "name": "anyname",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/parveensumal-neo/anyname",
+    "ssh": "git@github.com:parveensumal-neo/anyname.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": true
+}
